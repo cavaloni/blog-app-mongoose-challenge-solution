@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: aOgBAHQ38sSo7KXhkGrQidLACTYJXS0/46TGJqIhybuWcTpCu7JOpF0VstlAJUuUYLGc9M7cZ4H5ZpS63Ull9z3pyuZHUIgd4Dlpa4pKDzQgjcdtxtIMr2vUenLsGtzqXxxGqkpRlp6KQXKieWMIxv1/wuzoD7wpuwb+36eXT+TAdUmhe2t5QRzquREmxzr/0c5YXh+qS4CoybM2rCMAn9P/PMJ3sGFqvTR446crAyehQiuZLsP9V+KAZ6d13mm5Trk+2EdnNYz/emTdLF9r22nOJl76HzdWqq/UCPUXUNs9Qc8Pyx9F8a6Y+b82Qf03lFKP8p2N/KT/s7k0q9T0I0GfH0yV0gINkQfTasO9Tvym8fogJ5kH4hJG2SHTF8q2anxoxy2UgnPKZo4IAGGOkuFS0h/pCh8TiW+vXqXoHrABlV+iAPl1Gxhj3NWbr/dOdj5wEaNXDiDAL6vGBFTVJG6gxe3q/+vE63FKFLzrXcTz9iJ9AVQ8ubFxmg+6Mfr7ZVC+pIdnHT9RpTEPcF+WmRp4B3ObjMJxFiRFMTBQVcbhQWZiQ0UqtwzmkKxPMc+duuVv0vHJ0EFQFVoMJncB1NGbOE5e7RdXvOAuWljXEmVHEiq4NJ+Pv2LbhWb/9aqHr6a0k361qFYe37vQFL0L4wU2a9BPwz7RtBDHSj/SUFQ=
+  app: shrouded-caverns-15325
+  on:
+    repo: cavaloni/blog-app-mongoose-challenge-solution
